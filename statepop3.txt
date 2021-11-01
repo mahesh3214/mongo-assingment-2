@@ -1,0 +1,5 @@
+db.zipcodes.aggregate([{$group: {_id: {city:"$city",state: "$state"},population:{$sum: "$pop"}}},{$sort: {population: -1}},{$limit:(3)}])
+{ _id: { city: 'CHICAGO', state: 'IL' }, population: 2452177 }
+{ _id: { city: 'BROOKLYN', state: 'NY' }, population: 2300504 }
+{ _id: { city: 'LOS ANGELES', state: 'CA' },
+  population: 2102295 }

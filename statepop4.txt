@@ -1,0 +1,5 @@
+b.zipcodes.aggregate([{$match: {state: "TX"}},{$group: {_id: {city:"$city",state: "$state"},population:{$sum: "$pop"}}},{$sort: {population: -1}},{$limit:(3)}])
+{ _id: { city: 'HOUSTON', state: 'TX' }, population: 2095918 }
+{ _id: { city: 'DALLAS', state: 'TX' }, population: 940191 }
+{ _id: { city: 'SAN ANTONIO', state: 'TX' },
+  population: 811792 }

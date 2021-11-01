@@ -1,0 +1,247 @@
+db.zipcodes.aggregate([{$group: {_id: {city:"$city",state: "$state"},population:{$sum: "$pop"}}},{$sort: {population: -1}}])
+{ _id: { city: 'CHICAGO', state: 'IL' }, population: 2452177 }
+{ _id: { city: 'BROOKLYN', state: 'NY' }, population: 2300504 }
+{ _id: { city: 'LOS ANGELES', state: 'CA' },
+  population: 2102295 }
+{ _id: { city: 'HOUSTON', state: 'TX' }, population: 2095918 }
+{ _id: { city: 'PHILADELPHIA', state: 'PA' },
+  population: 1610956 }
+{ _id: { city: 'NEW YORK', state: 'NY' }, population: 1476790 }
+{ _id: { city: 'BRONX', state: 'NY' }, population: 1209548 }
+{ _id: { city: 'SAN DIEGO', state: 'CA' }, population: 1049298 }
+{ _id: { city: 'DETROIT', state: 'MI' }, population: 963243 }
+{ _id: { city: 'DALLAS', state: 'TX' }, population: 940191 }
+{ _id: { city: 'PHOENIX', state: 'AZ' }, population: 890853 }
+{ _id: { city: 'MIAMI', state: 'FL' }, population: 825232 }
+{ _id: { city: 'SAN JOSE', state: 'CA' }, population: 816653 }
+{ _id: { city: 'SAN ANTONIO', state: 'TX' },
+  population: 811792 }
+{ _id: { city: 'BALTIMORE', state: 'MD' }, population: 733081 }
+{ _id: { city: 'SAN FRANCISCO', state: 'CA' },
+  population: 723993 }
+{ _id: { city: 'MEMPHIS', state: 'TN' }, population: 632837 }
+{ _id: { city: 'SACRAMENTO', state: 'CA' }, population: 628279 }
+{ _id: { city: 'JACKSONVILLE', state: 'FL' },
+  population: 610160 }
+{ _id: { city: 'ATLANTA', state: 'GA' }, population: 609591 }
+{ _id: { city: 'WASHINGTON', state: 'DC' }, population: 606879 }
+{ _id: { city: 'LAS VEGAS', state: 'NV' }, population: 597557 }
+{ _id: { city: 'MILWAUKEE', state: 'WI' }, population: 597324 }
+{ _id: { city: 'TUCSON', state: 'AZ' }, population: 586451 }
+{ _id: { city: 'CLEVELAND', state: 'OH' }, population: 536759 }
+{ _id: { city: 'AUSTIN', state: 'TX' }, population: 530049 }
+{ _id: { city: 'COLUMBUS', state: 'OH' }, population: 520096 }
+{ _id: { city: 'SEATTLE', state: 'WA' }, population: 520096 }
+{ _id: { city: 'PORTLAND', state: 'OR' }, population: 518543 }
+{ _id: { city: 'EL PASO', state: 'TX' }, population: 511351 }
+{ _id: { city: 'TAMPA', state: 'FL' }, population: 498997 }
+{ _id: { city: 'NEW ORLEANS', state: 'LA' },
+  population: 496937 }
+{ _id: { city: 'CHARLOTTE', state: 'NC' }, population: 465833 }
+{ _id: { city: 'FORT WORTH', state: 'TX' }, population: 451415 }
+{ _id: { city: 'DENVER', state: 'CO' }, population: 451182 }
+{ _id: { city: 'ALBUQUERQUE', state: 'NM' },
+  population: 449584 }
+{ _id: { city: 'SAINT LOUIS', state: 'MO' },
+  population: 397802 }
+{ _id: { city: 'HONOLULU', state: 'HI' }, population: 396643 }
+{ _id: { city: 'ROCHESTER', state: 'NY' }, population: 396013 }
+{ _id: { city: 'TULSA', state: 'OK' }, population: 389072 }
+{ _id: { city: 'VIRGINIA BEACH', state: 'VA' },
+  population: 385080 }
+{ _id: { city: 'STATEN ISLAND', state: 'NY' },
+  population: 378977 }
+{ _id: { city: 'BUFFALO', state: 'NY' }, population: 375479 }
+{ _id: { city: 'OKLAHOMA CITY', state: 'OK' },
+  population: 368141 }
+{ _id: { city: 'KANSAS CITY', state: 'MO' },
+  population: 360182 }
+{ _id: { city: 'OMAHA', state: 'NE' }, population: 358930 }
+{ _id: { city: 'NASHVILLE', state: 'TN' }, population: 349822 }
+{ _id: { city: 'INDIANAPOLIS', state: 'IN' },
+  population: 348868 }
+{ _id: { city: 'FRESNO', state: 'CA' }, population: 347905 }
+{ _id: { city: 'MINNEAPOLIS', state: 'MN' },
+  population: 344719 }
+{ _id: { city: 'CINCINNATI', state: 'OH' }, population: 342537 }
+{ _id: { city: 'COLORADO SPRINGS', state: 'CO' },
+  population: 340404 }
+{ _id: { city: 'TOLEDO', state: 'OH' }, population: 328078 }
+{ _id: { city: 'MESA', state: 'AZ' }, population: 316356 }
+{ _id: { city: 'OAKLAND', state: 'CA' }, population: 314487 }
+{ _id: { city: 'LONG BEACH', state: 'CA' }, population: 299651 }
+{ _id: { city: 'ORLANDO', state: 'FL' }, population: 297711 }
+{ _id: { city: 'WICHITA', state: 'KS' }, population: 295115 }
+{ _id: { city: 'BATON ROUGE', state: 'LA' },
+  population: 291688 }
+{ _id: { city: 'SAINT PETERSBURG', state: 'FL' },
+  population: 290866 }
+{ _id: { city: 'RICHMOND', state: 'VA' }, population: 289601 }
+{ _id: { city: 'LOUISVILLE', state: 'KY' }, population: 288058 }
+{ _id: { city: 'SPOKANE', state: 'WA' }, population: 283986 }
+{ _id: { city: 'NEWARK', state: 'NJ' }, population: 275572 }
+{ _id: { city: 'RALEIGH', state: 'NC' }, population: 273470 }
+{ _id: { city: 'ANAHEIM', state: 'CA' }, population: 272327 }
+{ _id: { city: 'BAKERSFIELD', state: 'CA' },
+  population: 271347 }
+{ _id: { city: 'COLUMBIA', state: 'SC' }, population: 269521 }
+{ _id: { city: 'STOCKTON', state: 'CA' }, population: 267258 }
+{ _id: { city: 'ARLINGTON', state: 'TX' }, population: 266013 }
+{ _id: { city: 'AKRON', state: 'OH' }, population: 265195 }
+{ _id: { city: 'FORT WAYNE', state: 'IN' }, population: 261863 }
+{ _id: { city: 'CORPUS CHRISTI', state: 'TX' },
+  population: 261612 }
+{ _id: { city: 'DAYTON', state: 'OH' }, population: 259633 }
+{ _id: { city: 'RIVERSIDE', state: 'CA' }, population: 253478 }
+{ _id: { city: 'MARIETTA', state: 'GA' }, population: 247328 }
+{ _id: { city: 'HIALEAH', state: 'FL' }, population: 242836 }
+{ _id: { city: 'BIRMINGHAM', state: 'AL' }, population: 242606 }
+{ _id: { city: 'AURORA', state: 'CO' }, population: 237454 }
+{ _id: { city: 'MOBILE', state: 'AL' }, population: 235452 }
+{ _id: { city: 'SANTA ANA', state: 'CA' }, population: 234472 }
+{ _id: { city: 'NORFOLK', state: 'VA' }, population: 233150 }
+{ _id: { city: 'PENSACOLA', state: 'FL' }, population: 231031 }
+{ _id: { city: 'JERSEY CITY', state: 'NJ' },
+  population: 228537 }
+{ _id: { city: 'LEXINGTON', state: 'KY' }, population: 227262 }
+{ _id: { city: 'GREENSBORO', state: 'NC' }, population: 224777 }
+{ _id: { city: 'FLUSHING', state: 'NY' }, population: 224162 }
+{ _id: { city: 'MODESTO', state: 'CA' }, population: 216459 }
+{ _id: { city: 'CHARLESTON', state: 'SC' }, population: 212488 }
+{ _id: { city: 'KNOXVILLE', state: 'TN' }, population: 211476 }
+{ _id: { city: 'JACKSON', state: 'MS' }, population: 204788 }
+{ _id: { city: 'LUBBOCK', state: 'TX' }, population: 201288 }
+{ _id: { city: 'LINCOLN', state: 'NE' }, population: 200630 }
+{ _id: { city: 'WINSTON SALEM', state: 'NC' },
+  population: 196581 }
+{ _id: { city: 'JAMAICA', state: 'NY' }, population: 195205 }
+{ _id: { city: 'SAINT PAUL', state: 'MN' }, population: 194893 }
+{ _id: { city: 'TACOMA', state: 'WA' }, population: 194282 }
+{ _id: { city: 'MONTGOMERY', state: 'AL' }, population: 193811 }
+{ _id: { city: 'LITTLE ROCK', state: 'AR' },
+  population: 192895 }
+{ _id: { city: 'TALLAHASSEE', state: 'FL' },
+  population: 192493 }
+{ _id: { city: 'MADISON', state: 'WI' }, population: 190189 }
+{ _id: { city: 'SALT LAKE CITY', state: 'UT' },
+  population: 186346 }
+{ _id: { city: 'GRAND RAPIDS', state: 'MI' },
+  population: 185579 }
+{ _id: { city: 'SYRACUSE', state: 'NY' }, population: 184963 }
+{ _id: { city: 'ANCHORAGE', state: 'AK' }, population: 183987 }
+{ _id: { city: 'HUNTINGTON BEACH', state: 'CA' },
+  population: 183542 }
+{ _id: { city: 'GLENDALE', state: 'AZ' }, population: 182751 }
+{ _id: { city: 'GARLAND', state: 'TX' }, population: 180453 }
+{ _id: { city: 'FORT LAUDERDALE', state: 'FL' },
+  population: 178969 }
+{ _id: { city: 'SAN BERNARDINO', state: 'CA' },
+  population: 177552 }
+{ _id: { city: 'CRANSTON', state: 'RI' }, population: 176404 }
+{ _id: { city: 'HUNTSVILLE', state: 'AL' }, population: 176118 }
+{ _id: { city: 'SPRINGFIELD', state: 'MO' },
+  population: 175749 }
+{ _id: { city: 'GREENVILLE', state: 'SC' }, population: 174902 }
+{ _id: { city: 'FREMONT', state: 'CA' }, population: 173374 }
+{ _id: { city: 'AMARILLO', state: 'TX' }, population: 173158 }
+{ _id: { city: 'KALAMAZOO', state: 'MI' }, population: 172224 }
+{ _id: { city: 'YONKERS', state: 'NY' }, population: 172131 }
+{ _id: { city: 'RENO', state: 'NV' }, population: 171542 }
+{ _id: { city: 'ARLINGTON', state: 'VA' }, population: 171441 }
+{ _id: { city: 'CLEARWATER', state: 'FL' }, population: 171284 }
+{ _id: { city: 'NEWPORT NEWS', state: 'VA' },
+  population: 170048 }
+{ _id: { city: 'WORCESTER', state: 'MA' }, population: 169856 }
+{ _id: { city: 'SCOTTSDALE', state: 'AZ' }, population: 169083 }
+{ _id: { city: 'LANSING', state: 'MI' }, population: 168874 }
+{ _id: { city: 'ROCKFORD', state: 'IL' }, population: 167031 }
+{ _id: { city: 'COLUMBUS', state: 'GA' }, population: 166166 }
+{ _id: { city: 'EVANSVILLE', state: 'IN' }, population: 165800 }
+{ _id: { city: 'ASTORIA', state: 'NY' }, population: 165629 }
+{ _id: { city: 'BOISE', state: 'ID' }, population: 165522 }
+{ _id: { city: 'GLENDALE', state: 'CA' }, population: 163666 }
+{ _id: { city: 'SANTA ROSA', state: 'CA' }, population: 158398 }
+{ _id: { city: 'TORRANCE', state: 'CA' }, population: 158183 }
+{ _id: { city: 'DURHAM', state: 'NC' }, population: 157214 }
+{ _id: { city: 'OXNARD', state: 'CA' }, population: 156061 }
+{ _id: { city: 'POMPANO BEACH', state: 'FL' },
+  population: 155191 }
+{ _id: { city: 'IRVING', state: 'TX' }, population: 154459 }
+{ _id: { city: 'SAGINAW', state: 'MI' }, population: 154319 }
+{ _id: { city: 'SHREVEPORT', state: 'LA' }, population: 151468 }
+{ _id: { city: 'GARDEN GROVE', state: 'CA' },
+  population: 149554 }
+{ _id: { city: 'METAIRIE', state: 'LA' }, population: 148689 }
+{ _id: { city: 'DECATUR', state: 'GA' }, population: 148686 }
+{ _id: { city: 'DES MOINES', state: 'IA' }, population: 148155 }
+{ _id: { city: 'SPRINGFIELD', state: 'MA' },
+  population: 148062 }
+{ _id: { city: 'TEMPE', state: 'AZ' }, population: 147760 }
+{ _id: { city: 'SOUTH BEND', state: 'IN' }, population: 147730 }
+{ _id: { city: 'TOPEKA', state: 'KS' }, population: 147662 }
+{ _id: { city: 'PASADENA', state: 'CA' }, population: 147068 }
+{ _id: { city: 'GAINESVILLE', state: 'FL' },
+  population: 146095 }
+{ _id: { city: 'JACKSON HEIGHTS', state: 'NY' },
+  population: 145967 }
+{ _id: { city: 'HAMPTON', state: 'VA' }, population: 145345 }
+{ _id: { city: 'WARREN', state: 'MI' }, population: 145134 }
+{ _id: { city: 'VAN NUYS', state: 'CA' }, population: 143399 }
+{ _id: { city: 'WHITTIER', state: 'CA' }, population: 142478 }
+{ _id: { city: 'EL CAJON', state: 'CA' }, population: 142374 }
+{ _id: { city: 'HAYWARD', state: 'CA' }, population: 142237 }
+{ _id: { city: 'BRIDGEPORT', state: 'CT' }, population: 141638 }
+{ _id: { city: 'BOCA RATON', state: 'FL' }, population: 141477 }
+{ _id: { city: 'PATERSON', state: 'NJ' }, population: 141382 }
+{ _id: { city: 'FORT MYERS', state: 'FL' }, population: 141268 }
+{ _id: { city: 'HOLLYWOOD', state: 'FL' }, population: 140962 }
+{ _id: { city: 'ERIE', state: 'PA' }, population: 140829 }
+{ _id: { city: 'CHATTANOOGA', state: 'TN' },
+  population: 140047 }
+{ _id: { city: 'HARTFORD', state: 'CT' }, population: 139685 }
+{ _id: { city: 'ALLENTOWN', state: 'PA' }, population: 138574 }
+{ _id: { city: 'ONTARIO', state: 'CA' }, population: 137532 }
+{ _id: { city: 'ANN ARBOR', state: 'MI' }, population: 135318 }
+{ _id: { city: 'OCEANSIDE', state: 'CA' }, population: 135099 }
+{ _id: { city: 'ESCONDIDO', state: 'CA' }, population: 134000 }
+{ _id: { city: 'CHULA VISTA', state: 'CA' },
+  population: 132363 }
+{ _id: { city: 'ALEXANDRIA', state: 'VA' }, population: 132233 }
+{ _id: { city: 'BROWNSVILLE', state: 'TX' },
+  population: 129554 }
+{ _id: { city: 'LAKELAND', state: 'FL' }, population: 128400 }
+{ _id: { city: 'PLANO', state: 'TX' }, population: 128036 }
+{ _id: { city: 'BEAUMONT', state: 'TX' }, population: 126988 }
+{ _id: { city: 'DORCHESTER', state: 'MA' }, population: 126821 }
+{ _id: { city: 'FAYETTEVILLE', state: 'NC' },
+  population: 125013 }
+{ _id: { city: 'SAVANNAH', state: 'GA' }, population: 124331 }
+{ _id: { city: 'NORTH HOLLYWOOD', state: 'CA' },
+  population: 123669 }
+{ _id: { city: 'LAFAYETTE', state: 'LA' }, population: 123438 }
+{ _id: { city: 'RACINE', state: 'WI' }, population: 122994 }
+{ _id: { city: 'SALINAS', state: 'CA' }, population: 122705 }
+{ _id: { city: 'GARY', state: 'IN' }, population: 122590 }
+{ _id: { city: 'NAPLES', state: 'FL' }, population: 122446 }
+{ _id: { city: 'OGDEN', state: 'UT' }, population: 121690 }
+{ _id: { city: 'MORENO VALLEY', state: 'CA' },
+  population: 118951 }
+{ _id: { city: 'CHESAPEAKE', state: 'VA' }, population: 118322 }
+{ _id: { city: 'STERLING HEIGHTS', state: 'MI' },
+  population: 117810 }
+{ _id: { city: 'SUNNYVALE', state: 'CA' }, population: 117550 }
+{ _id: { city: 'PASADENA', state: 'TX' }, population: 117441 }
+{ _id: { city: 'ODESSA', state: 'TX' }, population: 116956 }
+{ _id: { city: 'KANSAS CITY', state: 'KS' },
+  population: 116911 }
+{ _id: { city: 'EVERETT', state: 'WA' }, population: 116343 }
+{ _id: { city: 'CEDAR RAPIDS', state: 'IA' },
+  population: 116146 }
+{ _id: { city: 'SAINT CHARLES', state: 'MO' },
+  population: 115407 }
+{ _id: { city: 'CONCORD', state: 'CA' }, population: 115027 }
+{ _id: { city: 'FLINT', state: 'MI' }, population: 114889 }
+{ _id: { city: 'SANTA BARBARA', state: 'CA' },
+  population: 114848 }
+{ _id: { city: 'IRVINE', state: 'CA' }, population: 114819 }
+{ _id: { city: 'SALEM', state: 'OR' }, population: 114577 }
