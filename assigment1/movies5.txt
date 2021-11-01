@@ -1,0 +1,11 @@
+db.movies.find({$and: [{year:{$gt:1900,$lt:2000}}]})
+{ _id: ObjectId("617ec5aa6ee16b0bf1eeae57"),
+  title: 'Fight Club',
+  writer: 'chuck Palahniuko',
+  year: 1999,
+  actors: [ 'Brad Pitt', 'Edward Norton' ] }
+{ _id: ObjectId("617ec7196ee16b0bf1eeae59"),
+  title: 'Pulp Fiction',
+  writer: 'Quentin Tarantino',
+  year: 1994,
+  actors: [ 'Travolta', 'Uma Thurman', 'Samuel L.Jackson' ] }

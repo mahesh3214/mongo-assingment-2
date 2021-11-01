@@ -1,0 +1,35 @@
+db.movies.find()
+{ _id: ObjectId("617ec5aa6ee16b0bf1eeae57"),
+  title: 'Fight Club',
+  writer: 'chuck Palahniuko',
+  year: 1999,
+  actors: [ 'Brad Pitt', 'Edward Norton' ] }
+{ _id: ObjectId("617ec7196ee16b0bf1eeae59"),
+  title: 'Pulp Fiction',
+  writer: 'Quentin Tarantino',
+  year: 1994,
+  actors: [ 'Travolta', 'Uma Thurman', 'Samuel L.Jackson' ] }
+{ _id: ObjectId("617eca036ee16b0bf1eeae5b"),
+  title: 'Inglorious Basters',
+  writer: 'Quentin Tarantino',
+  year: 2009,
+  actors: [ 'Brad Pitt', 'Diane Kruger', 'Eli Roth' ] }
+{ _id: ObjectId("617ecd432a8d3e535020f3eb"),
+  title: 'The Hobbit: An Unexpected Journey',
+  writer: 'J.R.R Tolkein',
+  franchise: 'The Hobbit',
+  year: 2012 }
+{ _id: ObjectId("617ece0a6ee16b0bf1eeae5c"),
+  title: 'The Hobbit:The Desolation of Smaug ',
+  writer: 'J.R.R Tolkein',
+  year: 2013,
+  franchise: 'The Hobbit' }
+{ _id: ObjectId("617ecf0d6ee16b0bf1eeae5d"),
+  title: 'The Hobbit:THe Battle of the five Armies',
+  writer: 'J.R.R Tolkein',
+  year: 2012,
+  franchise: 'The Hobbit',
+  synopsis: 'Bilbo and company are forced to engage in a war against an arrat of combatants and keep the lonely Mountain from falling into the hands of a rising darkness' }
+{ _id: ObjectId("617ed1da6ee16b0bf1eeae5e"),
+  title: 'Pee Wee Hermans\'s Big Adventure' }
+{ _id: ObjectId("617ed2266ee16b0bf1eeae5f"), title: 'Avatar' }

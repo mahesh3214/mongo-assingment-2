@@ -1,0 +1,6 @@
+db.movies.find({$or: [{year:{$gt:2000,$lt:2010}}]})
+{ _id: ObjectId("617eca036ee16b0bf1eeae5b"),
+  title: 'Inglorious Basters',
+  writer: 'Quentin Tarantino',
+  year: 2009,
+  actors: [ 'Brad Pitt', 'Diane Kruger', 'Eli Roth' ] }
