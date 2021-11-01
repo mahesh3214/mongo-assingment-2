@@ -1,0 +1,4 @@
+db.zipcodes.aggregate([{$group: {_id: {state: "$state",city: "$city"},Avgpop:{$avg: "$pop"}}},{$sort:{Avgpop: -1}},{$limit:(3)}])
+{ _id: { state: 'CA', city: 'BELL GARDENS' }, Avgpop: 99568 }
+{ _id: { state: 'CA', city: 'NORWALK' }, Avgpop: 94188 }
+{ _id: { state: 'CA', city: 'ARLETA' }, Avgpop: 88114 }

@@ -1,0 +1,203 @@
+db.zipcodes.aggregate([{$group: {_id: {state: "$state",city: "$city"},Avgpop:{$avg: "$pop"}}}])
+{ _id: { state: 'NY', city: 'ATLANTIC BEACH' }, Avgpop: 2831 }
+{ _id: { state: 'FL', city: 'LYNN HAVEN' }, Avgpop: 12205 }
+{ _id: { state: 'OK', city: 'CALVIN' }, Avgpop: 779 }
+{ _id: { state: 'OK', city: 'WESTVILLE' }, Avgpop: 3899 }
+{ _id: { state: 'TX', city: 'OAKWOOD' }, Avgpop: 2637 }
+{ _id: { state: 'ND', city: 'CALEDONIA' }, Avgpop: 154 }
+{ _id: { state: 'FL', city: 'EL JOBEAN' }, Avgpop: 91 }
+{ _id: { state: 'UT', city: 'LINDON' }, Avgpop: 3819 }
+{ _id: { state: 'CA', city: 'CAPISTRANO BEACH' }, Avgpop: 7498 }
+{ _id: { state: 'PA', city: 'ADDISON' }, Avgpop: 1158 }
+{ _id: { state: 'PA', city: 'EAST MILLSBORO' }, Avgpop: 104 }
+{ _id: { state: 'IA', city: 'MALCOM' }, Avgpop: 1595 }
+{ _id: { state: 'ME', city: 'SOLON' }, Avgpop: 1236 }
+{ _id: { state: 'AR', city: 'MOUNT JUDEA' }, Avgpop: 665 }
+{ _id: { state: 'IL', city: 'NIOTA' }, Avgpop: 672 }
+{ _id: { state: 'KY', city: 'MORRIS FORK' }, Avgpop: 2675 }
+{ _id: { state: 'IN', city: 'SIBERIA' }, Avgpop: 912 }
+{ _id: { state: 'MI', city: 'KALAMAZOO' }, Avgpop: 34444.8 }
+{ _id: { state: 'TX', city: 'HUGHES SPRINGS' }, Avgpop: 4564 }
+{ _id: { state: 'CA', city: 'LA PORTE' }, Avgpop: 242 }
+{ _id: { state: 'WA', city: 'USK' }, Avgpop: 501 }
+{ _id: { state: 'NY', city: 'PERRYSBURG' }, Avgpop: 2198 }
+{ _id: { state: 'NY', city: 'CLARENCE' }, Avgpop: 7712 }
+{ _id: { state: 'WA', city: 'CLAYTON' }, Avgpop: 1621 }
+{ _id: { state: 'KY', city: 'JAMESTOWN' }, Avgpop: 5140 }
+{ _id: { state: 'PA', city: 'EMLENTON' }, Avgpop: 3119 }
+{ _id: { state: 'GA', city: 'RICEBORO' }, Avgpop: 1737 }
+{ _id: { state: 'AL', city: 'PRICHARD' }, Avgpop: 24919 }
+{ _id: { state: 'NC', city: 'OGDEN' }, Avgpop: 26744 }
+{ _id: { state: 'WI', city: 'TOWNSEND' }, Avgpop: 729 }
+{ _id: { state: 'NH', city: 'BARRINGTON' }, Avgpop: 5842 }
+{ _id: { state: 'NC', city: 'ETOWAH' }, Avgpop: 2461 }
+{ _id: { state: 'FL', city: 'KENNETH CITY' }, Avgpop: 26024 }
+{ _id: { state: 'IN', city: 'FAIRLAND' }, Avgpop: 6682 }
+{ _id: { state: 'MI', city: 'NORTH BRANCH' }, Avgpop: 6106 }
+{ _id: { state: 'WI', city: 'MONICO' }, Avgpop: 19039 }
+{ _id: { state: 'MN', city: 'ROCK CREEK' }, Avgpop: 1040 }
+{ _id: { state: 'SD', city: 'MISSION RIDGE' }, Avgpop: 83 }
+{ _id: { state: 'IL', city: 'INA' }, Avgpop: 800 }
+{ _id: { state: 'MO', city: 'GOODSON' }, Avgpop: 379 }
+{ _id: { state: 'TN', city: 'MONTEAGLE' }, Avgpop: 2206 }
+{ _id: { state: 'VA', city: 'KEELING' }, Avgpop: 2651 }
+{ _id: { state: 'KY', city: 'MARY ALICE' }, Avgpop: 115 }
+{ _id: { state: 'MI', city: 'CLAYTON' }, Avgpop: 2000 }
+{ _id: { state: 'KS', city: 'COLONY' }, Avgpop: 806 }
+{ _id: { state: 'SD', city: 'ARMOUR' }, Avgpop: 1118 }
+{ _id: { state: 'IL', city: 'BROOKFIELD' }, Avgpop: 18859 }
+{ _id: { state: 'KS', city: 'ASHLAND' }, Avgpop: 1271 }
+{ _id: { state: 'MN', city: 'HOUSTON' }, Avgpop: 3337 }
+{ _id: { state: 'TX', city: 'WEST POINT' }, Avgpop: 58 }
+{ _id: { state: 'TX', city: 'OVALO' }, Avgpop: 326 }
+{ _id: { state: 'GA', city: 'MOLENA' }, Avgpop: 2055 }
+{ _id: { state: 'PA', city: 'DARLINGTON' }, Avgpop: 3397 }
+{ _id: { state: 'NJ', city: 'MERCERVILLE' }, Avgpop: 23627 }
+{ _id: { state: 'NJ', city: 'FORT HANCOCK' }, Avgpop: 4962 }
+{ _id: { state: 'MN', city: 'WELLS' }, Avgpop: 3585 }
+{ _id: { state: 'ME', city: 'SEARSMONT' }, Avgpop: 422 }
+{ _id: { state: 'MT', city: 'STOCKETT' }, Avgpop: 554 }
+{ _id: { state: 'NE', city: 'OCONTO' }, Avgpop: 539 }
+{ _id: { state: 'PA', city: 'PALMYRA' }, Avgpop: 14239 }
+{ _id: { state: 'OK', city: 'ISABELLA' }, Avgpop: 416 }
+{ _id: { state: 'OK', city: 'MOUNDS' }, Avgpop: 5412 }
+{ _id: { state: 'MI', city: 'MUNITH' }, Avgpop: 3078 }
+{ _id: { state: 'NC', city: 'CHAPEL HILL' }, Avgpop: 30555 }
+{ _id: { state: 'KY', city: 'QUINCY' }, Avgpop: 512 }
+{ _id: { state: 'IA', city: 'SWISHER' }, Avgpop: 3101 }
+{ _id: { state: 'ND', city: 'GUELPH' }, Avgpop: 2569 }
+{ _id: { state: 'KS', city: 'HEPLER' }, Avgpop: 229 }
+{ _id: { state: 'KS', city: 'STRONG CITY' }, Avgpop: 1149 }
+{ _id: { state: 'CO', city: 'DRAKE' }, Avgpop: 721 }
+{ _id: { state: 'CA', city: 'CARSON' },
+  Avgpop: 37638.333333333336 }
+{ _id: { state: 'WY', city: 'SHERIDAN' }, Avgpop: 20025 }
+{ _id: { state: 'OR', city: 'EUGENE' }, Avgpop: 28400.5 }
+{ _id: { state: 'GA', city: 'EATONTON' }, Avgpop: 13086 }
+{ _id: { state: 'PA', city: 'MARSTELLER' }, Avgpop: 959 }
+{ _id: { state: 'OR', city: 'DEXTER' }, Avgpop: 2980 }
+{ _id: { state: 'KS', city: 'BEAVER' }, Avgpop: 122 }
+{ _id: { state: 'NC', city: 'UNAKA' }, Avgpop: 11333 }
+{ _id: { state: 'IL', city: 'SCHILLER PARK' }, Avgpop: 11189 }
+{ _id: { state: 'VA', city: 'MC KENNEY' }, Avgpop: 1866 }
+{ _id: { state: 'AL', city: 'GRADY' }, Avgpop: 1811 }
+{ _id: { state: 'NC', city: 'ALBERTSON' }, Avgpop: 2644 }
+{ _id: { state: 'SC', city: 'WADMALAW ISLAND' }, Avgpop: 2570 }
+{ _id: { state: 'WV', city: 'DUNMORE' }, Avgpop: 265 }
+{ _id: { state: 'NY', city: 'IRVINGTON' }, Avgpop: 7498 }
+{ _id: { state: 'CT', city: 'BROOKFIELD' }, Avgpop: 14223 }
+{ _id: { state: 'ND', city: 'ARTHUR' }, Avgpop: 543 }
+{ _id: { state: 'ND', city: 'NEW ENGLAND' }, Avgpop: 1183 }
+{ _id: { state: 'KS', city: 'JOHNSON' }, Avgpop: 1979 }
+{ _id: { state: 'TX', city: 'PILOT POINT' }, Avgpop: 4183 }
+{ _id: { state: 'PA', city: 'FORT WASHINGTON' }, Avgpop: 6787 }
+{ _id: { state: 'MS', city: 'NEWTON' }, Avgpop: 6779 }
+{ _id: { state: 'TX', city: 'SMILEY' }, Avgpop: 972 }
+{ _id: { state: 'ND', city: 'BELCOURT' }, Avgpop: 5415 }
+{ _id: { state: 'CO', city: 'EGNAR' }, Avgpop: 119 }
+{ _id: { state: 'VA', city: 'EDINBURG' }, Avgpop: 5079 }
+{ _id: { state: 'CA', city: 'BENICIA' }, Avgpop: 24545 }
+{ _id: { state: 'MI', city: 'OTISVILLE' }, Avgpop: 4130 }
+{ _id: { state: 'CA', city: 'RODEO' }, Avgpop: 7827 }
+{ _id: { state: 'AR', city: 'JOINER' }, Avgpop: 986 }
+{ _id: { state: 'CA', city: 'PAYNES CREEK' }, Avgpop: 773 }
+{ _id: { state: 'TN', city: 'STANTON' }, Avgpop: 2940 }
+{ _id: { state: 'PA', city: 'FINLEYVILLE' }, Avgpop: 8838 }
+{ _id: { state: 'AL', city: 'GUNTERSVILLE' }, Avgpop: 11234 }
+{ _id: { state: 'KY', city: 'BETHELRIDGE' }, Avgpop: 550 }
+{ _id: { state: 'LA', city: 'CLIFTON' }, Avgpop: 443 }
+{ _id: { state: 'AK', city: 'HUGHES' }, Avgpop: 64 }
+{ _id: { state: 'MI', city: 'CONKLIN' }, Avgpop: 2720 }
+{ _id: { state: 'VA', city: 'MASON NECK' }, Avgpop: 17438 }
+{ _id: { state: 'WI', city: 'WEYAUWEGA' }, Avgpop: 3886 }
+{ _id: { state: 'MO', city: 'CHADWICK' }, Avgpop: 326 }
+{ _id: { state: 'NE', city: 'VIRGINIA' }, Avgpop: 226 }
+{ _id: { state: 'AR', city: 'NEWHOPE' }, Avgpop: 400 }
+{ _id: { state: 'MI', city: 'HERMANSVILLE' }, Avgpop: 1090 }
+{ _id: { state: 'MI', city: 'SOUTH BRANCH' }, Avgpop: 968 }
+{ _id: { state: 'CA', city: 'MERIDIAN' }, Avgpop: 907 }
+{ _id: { state: 'CA', city: 'STEVINSON' }, Avgpop: 1564 }
+{ _id: { state: 'NJ', city: 'SUMMIT' }, Avgpop: 20151 }
+{ _id: { state: 'IL', city: 'NEW LIBERTY' }, Avgpop: 2565 }
+{ _id: { state: 'PA', city: 'DRUMS' }, Avgpop: 6008 }
+{ _id: { state: 'MI', city: 'INDEPENDENCE' }, Avgpop: 16047 }
+{ _id: { state: 'NC', city: 'PENROSE' }, Avgpop: 653 }
+{ _id: { state: 'NY', city: 'BLOSSVALE' }, Avgpop: 4489 }
+{ _id: { state: 'NY', city: 'GAINESVILLE' }, Avgpop: 1536 }
+{ _id: { state: 'GA', city: 'RICHLAND' }, Avgpop: 2626 }
+{ _id: { state: 'NY', city: 'RHINEBECK' }, Avgpop: 9458 }
+{ _id: { state: 'MT', city: 'GALLATIN GATEWAY' }, Avgpop: 2807 }
+{ _id: { state: 'TX', city: 'POWELL' }, Avgpop: 127 }
+{ _id: { state: 'TX', city: 'CASTLE HILLS' }, Avgpop: 36060 }
+{ _id: { state: 'WY', city: 'DIXON' }, Avgpop: 253 }
+{ _id: { state: 'AL', city: 'EMPIRE' }, Avgpop: 2429 }
+{ _id: { state: 'IL', city: 'NEOGA' }, Avgpop: 3494 }
+{ _id: { state: 'CA', city: 'NEWPORT BEACH' }, Avgpop: 12613 }
+{ _id: { state: 'IN', city: 'WAKARUSA' }, Avgpop: 2776 }
+{ _id: { state: 'IL', city: 'NASON' }, Avgpop: 269 }
+{ _id: { state: 'MD', city: 'LOVEVILLE' }, Avgpop: 248 }
+{ _id: { state: 'WA', city: 'LINCOLN' }, Avgpop: 31 }
+{ _id: { state: 'NE', city: 'TEKAMAH' }, Avgpop: 2881 }
+{ _id: { state: 'SD', city: 'STOCKHOLM' }, Avgpop: 213 }
+{ _id: { state: 'MA', city: 'BECKET' }, Avgpop: 1070 }
+{ _id: { state: 'KS', city: 'POWHATTAN' }, Avgpop: 913 }
+{ _id: { state: 'KS', city: 'FARLINGTON' }, Avgpop: 519 }
+{ _id: { state: 'IN', city: 'MITCHELL' }, Avgpop: 9516 }
+{ _id: { state: 'SD', city: 'KRANZBURG' }, Avgpop: 525 }
+{ _id: { state: 'IN', city: 'MAUCKPORT' }, Avgpop: 520 }
+{ _id: { state: 'MA', city: 'EVERETT' }, Avgpop: 35493 }
+{ _id: { state: 'MT', city: 'CUSTER' }, Avgpop: 304 }
+{ _id: { state: 'MO', city: 'BOLIVAR' }, Avgpop: 10671 }
+{ _id: { state: 'KS', city: 'INMAN' }, Avgpop: 1863 }
+{ _id: { state: 'MN', city: 'JACOBSON' }, Avgpop: 387 }
+{ _id: { state: 'LA', city: 'LAFITTE' }, Avgpop: 0 }
+{ _id: { state: 'NJ', city: 'OLD BRIDGE' }, Avgpop: 33884 }
+{ _id: { state: 'LA', city: 'RACELAND' }, Avgpop: 12920 }
+{ _id: { state: 'WI', city: 'ANTIGO' }, Avgpop: 13087 }
+{ _id: { state: 'OK', city: 'DEL CITY' }, Avgpop: 23589 }
+{ _id: { state: 'PA', city: 'GRANVILLE SUMMIT' }, Avgpop: 1447 }
+{ _id: { state: 'OK', city: 'WELEETKA' }, Avgpop: 2133 }
+{ _id: { state: 'FL', city: 'MIRAMAR' }, Avgpop: 54274 }
+{ _id: { state: 'TX', city: 'IRA' }, Avgpop: 949 }
+{ _id: { state: 'UT', city: 'NEPHI' }, Avgpop: 4200 }
+{ _id: { state: 'CA', city: 'DINUBA' }, Avgpop: 20012 }
+{ _id: { state: 'CA', city: 'EMIGRANT GAP' }, Avgpop: 36 }
+{ _id: { state: 'TX', city: 'KNOX CITY' }, Avgpop: 1751 }
+{ _id: { state: 'FL', city: 'FELLSMERE' }, Avgpop: 2936 }
+{ _id: { state: 'CT', city: 'NORTHFIELD' }, Avgpop: 442 }
+{ _id: { state: 'NY', city: 'MILLER PLACE' }, Avgpop: 9601 }
+{ _id: { state: 'MN', city: 'DANUBE' }, Avgpop: 1179 }
+{ _id: { state: 'IA', city: 'SOUTH AMANA' }, Avgpop: 45 }
+{ _id: { state: 'TX', city: 'DAYTON' }, Avgpop: 16229 }
+{ _id: { state: 'KS', city: 'LIEBENTHAL' }, Avgpop: 231 }
+{ _id: { state: 'KS', city: 'HIATTVILLE' }, Avgpop: 11192 }
+{ _id: { state: 'CO', city: 'JOHNSTOWN' }, Avgpop: 2601 }
+{ _id: { state: 'NY', city: 'PREBLE' }, Avgpop: 502 }
+{ _id: { state: 'LA', city: 'LAFAYETTE' }, Avgpop: 24687.6 }
+{ _id: { state: 'NY', city: 'GLEN HEAD' }, Avgpop: 13565 }
+{ _id: { state: 'VA', city: 'BERGTON' }, Avgpop: 341 }
+{ _id: { state: 'MI', city: 'MANCHESTER' }, Avgpop: 6163 }
+{ _id: { state: 'CA', city: 'POSEY' }, Avgpop: 253 }
+{ _id: { state: 'VT', city: 'BELMONT' }, Avgpop: 223 }
+{ _id: { state: 'NY', city: 'BUSKIRK' }, Avgpop: 1272 }
+{ _id: { state: 'NC', city: 'FRANK' }, Avgpop: 8906 }
+{ _id: { state: 'MN', city: 'GARRISON' }, Avgpop: 1771 }
+{ _id: { state: 'CA', city: 'SAN GERONIMO' }, Avgpop: 802 }
+{ _id: { state: 'TN', city: 'DOYLE' }, Avgpop: 1802 }
+{ _id: { state: 'PA', city: 'COLONIAL PARK' }, Avgpop: 22952 }
+{ _id: { state: 'VA', city: 'ARLINGTON' }, Avgpop: 17144.1 }
+{ _id: { state: 'RI', city: 'PAWTUCKET' }, Avgpop: 36227.5 }
+{ _id: { state: 'NY', city: 'WESTHAMPTON BEAC' }, Avgpop: 2863 }
+{ _id: { state: 'OH', city: 'UPPER SANDUSKY' }, Avgpop: 9778 }
+{ _id: { state: 'OH', city: 'ADENA' }, Avgpop: 1690 }
+{ _id: { state: 'OH', city: 'ROCK CAMP' }, Avgpop: 435 }
+{ _id: { state: 'MS', city: 'VAIDEN' }, Avgpop: 1987 }
+{ _id: { state: 'MI', city: 'MOUNT PLEASANT' }, Avgpop: 33732 }
+{ _id: { state: 'IL', city: 'RADFORD' }, Avgpop: 3112 }
+{ _id: { state: 'IL', city: 'ALLENDALE' }, Avgpop: 1051 }
+{ _id: { state: 'AL', city: 'ROCK MILLS' }, Avgpop: 9430 }
+{ _id: { state: 'NC', city: 'GASTONIA' },
+  Avgpop: 28957.333333333332 }
+{ _id: { state: 'AR', city: 'WYNNE' }, Avgpop: 13908 }
+{ _id: { state: 'NY', city: 'UTICA' }, Avgpop: 38427.5 }
+{ _id: { state: 'CO', city: 'BROOMFIELD' }, Avgpop: 31533 }
