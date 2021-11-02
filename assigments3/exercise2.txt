@@ -1,0 +1,101 @@
+db.addresses.aggregate([{$group: {_id: {restaurant_id: "$restaurant_id", name: "$name", borough: "$borough", cuisine: "$cuisine"}}}])
+{ _id: 
+   { restaurant_id: '40819045',
+     name: 'Rathbones Pub',
+     borough: 'Manhattan',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40872441',
+     name: 'Starbucks Coffee',
+     borough: 'Manhattan',
+     cuisine: 'Café/Coffee/Tea' } }
+{ _id: 
+   { restaurant_id: '40724274',
+     name: 'The Wheeltapper',
+     borough: 'Manhattan',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40783748',
+     name: 'Phillies Pizzeria Ii',
+     borough: 'Queens',
+     cuisine: 'Pizza/Italian' } }
+{ _id: 
+   { restaurant_id: '40865775',
+     name: 'Fratelli Pizza',
+     borough: 'Queens',
+     cuisine: 'Pizza' } }
+{ _id: 
+   { restaurant_id: '40367789',
+     name: 'Dani Pizza And Restaurant',
+     borough: 'Queens',
+     cuisine: 'Pizza' } }
+{ _id: 
+   { restaurant_id: '40655028',
+     name: 'Snacks-N-Wheels',
+     borough: 'Manhattan',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40423563',
+     name: 'Circo Pastry Shop',
+     borough: 'Brooklyn',
+     cuisine: 'Bakery' } }
+{ _id: 
+   { restaurant_id: '40366987',
+     name: 'El Charro Espanol',
+     borough: 'Manhattan',
+     cuisine: 'Spanish' } }
+{ _id: 
+   { restaurant_id: '40591490',
+     name: 'West 53Rd Gourmet Deli',
+     borough: 'Manhattan',
+     cuisine: 'Delicatessen' } }
+{ _id: 
+   { restaurant_id: '40400799',
+     name: 'Fordham Fried Chicken & Sea Food',
+     borough: 'Bronx',
+     cuisine: 'Chicken' } }
+{ _id: 
+   { restaurant_id: '40620484',
+     name: 'Tony\'S Pizza',
+     borough: 'Bronx',
+     cuisine: 'Pizza' } }
+{ _id: 
+   { restaurant_id: '40546257',
+     name: 'Starbucks Coffee (Store 7261)',
+     borough: 'Manhattan',
+     cuisine: 'Café/Coffee/Tea' } }
+{ _id: 
+   { restaurant_id: '40690297',
+     name: 'Thomasina\'S',
+     borough: 'Queens',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40393688',
+     name: 'El Molino Rojo Restaurant',
+     borough: 'Bronx',
+     cuisine: 'Latin (Cuban, Dominican, Puerto Rican, South & Central American)' } }
+{ _id: 
+   { restaurant_id: '40393725',
+     name: 'Tribeca Grill',
+     borough: 'Manhattan',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40801325',
+     name: 'Regina Pizza',
+     borough: 'Queens',
+     cuisine: 'Pizza' } }
+{ _id: 
+   { restaurant_id: '40385774',
+     name: 'Park Plaza Restaurant',
+     borough: 'Brooklyn',
+     cuisine: 'American ' } }
+{ _id: 
+   { restaurant_id: '40824688',
+     name: 'La Vienesa Spanish Bakery',
+     borough: 'Queens',
+     cuisine: 'Bakery' } }
+{ _id: 
+   { restaurant_id: '40610155',
+     name: 'Citibank Executive Conference Center',
+     borough: 'Manhattan',
+     cuisine: 'American ' } }
