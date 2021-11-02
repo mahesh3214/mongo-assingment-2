@@ -1,0 +1,11 @@
+db.comments.insertMany([
+
+{  username: "GoodGuyGreg", comment:"Hope you got a good deal!",post:"607f49ca845ea1cba8e2ij18"},
+{  username: "GoodGuyGreg", comment:"What's mine is yours!",post:"607f49ca845ea1cba8e2ij19"},
+
+{  username: "GoodGuyGreg", comment:"Don't violate the licensing agreement!",post:"607f49ca845ea1cba8e2ij20"},
+
+{  username: "ScumbagSteve", comment:"It still isn't clean",post:"607f49ca845ea1cba8e2ij21"},
+
+{  username: "ScumbagSteve", comment:"Denied your PR cause I found a hack",post:"607f49ca845ea1cba8e2ij22"}
+  ]);
