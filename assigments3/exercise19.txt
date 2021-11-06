@@ -1,0 +1,107 @@
+db.addresses.find({"borough" :{$nin :["Staten Island","Queens","Bronx","Brooklyn"]}},
+{
+"restaurant_id": 1,
+"name":1,"borough":1,
+"cuisine" :1
+}
+)
+{ _id: ObjectId("6180a76f83999d4a1039869b"),
+  borough: 'Manhattan',
+  cuisine: 'Chicken',
+  name: 'Harriet\'S Kitchen',
+  restaurant_id: '40362098' }
+{ _id: ObjectId("6180a76f83999d4a103986bb"),
+  borough: 'Manhattan',
+  cuisine: 'Chicken',
+  name: 'Texas Rotisserie',
+  restaurant_id: '40364304' }
+{ _id: ObjectId("6180a76f83999d4a103986df"),
+  borough: 'Manhattan',
+  cuisine: 'Italian',
+  name: 'Forlinis Restaurant',
+  restaurant_id: '40365098' }
+{ _id: ObjectId("6180a76f83999d4a103986f3"),
+  borough: 'Manhattan',
+  cuisine: 'Irish',
+  name: 'Moran\'S Chelsea',
+  restaurant_id: '40365526' }
+{ _id: ObjectId("6180a76f83999d4a10398717"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Dangerfield\'S Night Club',
+  restaurant_id: '40366381' }
+{ _id: ObjectId("6180a76f83999d4a1039871b"),
+  borough: 'Manhattan',
+  cuisine: 'Spanish',
+  name: 'Tio Pepe',
+  restaurant_id: '40366473' }
+{ _id: ObjectId("6180a76f83999d4a10398724"),
+  borough: 'Manhattan',
+  cuisine: 'Tex-Mex',
+  name: 'Baby Bo\'S Burritos',
+  restaurant_id: '40366661' }
+{ _id: ObjectId("6180a76f83999d4a1039874a"),
+  borough: 'Manhattan',
+  cuisine: 'Spanish',
+  name: 'Malaga Restaurant',
+  restaurant_id: '40367544' }
+{ _id: ObjectId("6180a76f83999d4a1039876c"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Jimmy\'S Corner',
+  restaurant_id: '40368374' }
+{ _id: ObjectId("6180a76f83999d4a1039879c"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Nectar Coffee Shop',
+  restaurant_id: '40369759' }
+{ _id: ObjectId("6180a76f83999d4a103987c9"),
+  borough: 'Manhattan',
+  cuisine: 'Pizza',
+  name: 'Mariella Pizza',
+  restaurant_id: '40371313' }
+{ _id: ObjectId("6180a76f83999d4a103987ee"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Astro Restaurant',
+  restaurant_id: '40373113' }
+{ _id: ObjectId("6180a76f83999d4a103987f3"),
+  borough: 'Manhattan',
+  cuisine: 'Japanese',
+  name: 'Souen Restaurant',
+  restaurant_id: '40373318' }
+{ _id: ObjectId("6180a76f83999d4a1039880a"),
+  borough: 'Manhattan',
+  cuisine: 'Irish',
+  name: 'Molly Wee Pub',
+  restaurant_id: '40374277' }
+{ _id: ObjectId("6180a76f83999d4a1039881e"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Paris Blues',
+  restaurant_id: '40375634' }
+{ _id: ObjectId("6180a76f83999d4a1039882e"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Blue Note Jazz',
+  restaurant_id: '40376352' }
+{ _id: ObjectId("6180a76f83999d4a1039884a"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Broadway Restaurant',
+  restaurant_id: '40378136' }
+{ _id: ObjectId("6180a76f83999d4a1039885f"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Gotham Bar & Grill',
+  restaurant_id: '40379304' }
+{ _id: ObjectId("6180a76f83999d4a10398874"),
+  borough: 'Manhattan',
+  cuisine: 'Mexican',
+  name: 'Arriba Arriba',
+  restaurant_id: '40380457' }
+{ _id: ObjectId("6180a76f83999d4a10398699"),
+  borough: 'Manhattan',
+  cuisine: 'Delicatessen',
+  name: 'Bully\'S Deli',
+  restaurant_id: '40361708' }

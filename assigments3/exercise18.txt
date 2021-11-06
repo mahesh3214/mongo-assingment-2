@@ -1,0 +1,107 @@
+db.addresses.find({"borough" :{$in :["Staten Island","Queens","Bronx","Brooklyn"]}},
+{
+"restaurant_id": 1,
+"name":1,"borough":1,
+"cuisine" :1
+}
+)
+{ _id: ObjectId("6180a76f83999d4a10398688"),
+  borough: 'Queens',
+  cuisine: 'Jewish/Kosher',
+  name: 'Tov Kosher Kitchen',
+  restaurant_id: '40356068' }
+{ _id: ObjectId("6180a76f83999d4a10398692"),
+  borough: 'Brooklyn',
+  cuisine: 'Jewish/Kosher',
+  name: 'Seuda Foods',
+  restaurant_id: '40360045' }
+{ _id: ObjectId("6180a76f83999d4a103986a4"),
+  borough: 'Brooklyn',
+  cuisine: 'Donuts',
+  name: 'Dunkin\' Donuts',
+  restaurant_id: '40363098' }
+{ _id: ObjectId("6180a76f83999d4a103986a7"),
+  borough: 'Bronx',
+  cuisine: 'Chinese',
+  name: 'Happy Garden',
+  restaurant_id: '40363289' }
+{ _id: ObjectId("6180a76f83999d4a103986bd"),
+  borough: 'Brooklyn',
+  cuisine: 'Steak',
+  name: 'Peter Luger Steakhouse',
+  restaurant_id: '40364335' }
+{ _id: ObjectId("6180a76f83999d4a103986c1"),
+  borough: 'Bronx',
+  cuisine: 'American ',
+  name: 'Manhem Club',
+  restaurant_id: '40364363' }
+{ _id: ObjectId("6180a76f83999d4a103986cf"),
+  borough: 'Staten Island',
+  cuisine: 'American ',
+  name: 'Great Kills Yacht Club',
+  restaurant_id: '40364610' }
+{ _id: ObjectId("6180a76f83999d4a103986d9"),
+  borough: 'Bronx',
+  cuisine: 'American ',
+  name: 'The New Starling Athletic Club Of The Bronx',
+  restaurant_id: '40364956' }
+{ _id: ObjectId("6180a76f83999d4a103986e2"),
+  borough: 'Brooklyn',
+  cuisine: 'Donuts',
+  name: 'Nostrand Donut Shop',
+  restaurant_id: '40365226' }
+{ _id: ObjectId("6180a76f83999d4a10398714"),
+  borough: 'Queens',
+  cuisine: 'American ',
+  name: 'Blarney Castle',
+  restaurant_id: '40366356' }
+{ _id: ObjectId("6180a76f83999d4a1039872c"),
+  borough: 'Queens',
+  cuisine: 'Spanish',
+  name: 'La Fusta Restaurant',
+  restaurant_id: '40366879' }
+{ _id: ObjectId("6180a76f83999d4a10398736"),
+  borough: 'Brooklyn',
+  cuisine: 'American ',
+  name: 'New Floridian Diner',
+  restaurant_id: '40367164' }
+{ _id: ObjectId("6180a76f83999d4a10398754"),
+  borough: 'Brooklyn',
+  cuisine: 'Greek',
+  name: 'El Greco Diner',
+  restaurant_id: '40367795' }
+{ _id: ObjectId("6180a76f83999d4a10398759"),
+  borough: 'Queens',
+  cuisine: 'Pizza/Italian',
+  name: 'Amore Pizzeria & Restaurant',
+  restaurant_id: '40367870' }
+{ _id: ObjectId("6180a76f83999d4a1039875a"),
+  borough: 'Bronx',
+  cuisine: 'Not Listed/Not Applicable',
+  name: 'The Lark\'S Nest',
+  restaurant_id: '40367946' }
+{ _id: ObjectId("6180a76f83999d4a10398778"),
+  borough: 'Queens',
+  cuisine: 'American ',
+  name: 'P.J.\' S',
+  restaurant_id: '40368809' }
+{ _id: ObjectId("6180a76f83999d4a10398787"),
+  borough: 'Bronx',
+  cuisine: 'Seafood',
+  name: 'Seashore Restaurant',
+  restaurant_id: '40369299' }
+{ _id: ObjectId("6180a76f83999d4a10398794"),
+  borough: 'Bronx',
+  cuisine: 'Seafood',
+  name: 'Johnny\'S Reef Restaurant',
+  restaurant_id: '40369641' }
+{ _id: ObjectId("6180a76f83999d4a1039879e"),
+  borough: 'Brooklyn',
+  cuisine: 'Hamburgers',
+  name: 'Mcdonald\'S',
+  restaurant_id: '40369782' }
+{ _id: ObjectId("6180a76f83999d4a103987b0"),
+  borough: 'Queens',
+  cuisine: 'Hamburgers',
+  name: 'Burger King',
+  restaurant_id: '40370238' }

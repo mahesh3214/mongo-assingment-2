@@ -1,0 +1,32 @@
+db.addresses.find({name:/ces$/},{"restaurant_id":1,"name":1,"borough":1,"cuisine":1})
+
+{ _id: ObjectId("6180a76f83999d4a10398bd6"),
+  borough: 'Queens',
+  cuisine: 'American ',
+  name: 'S.M.R Restaurant Services',
+  restaurant_id: '40403857' }
+{ _id: ObjectId("6180a76f83999d4a10398bdc"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Good Shepherd Services',
+  restaurant_id: '40403989' }
+{ _id: ObjectId("6180a76f83999d4a10398b17"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Pieces',
+  restaurant_id: '40399910' }
+{ _id: ObjectId("6180a77083999d4a1039908f"),
+  borough: 'Queens',
+  cuisine: 'Ice Cream, Gelato, Yogurt, Ices',
+  name: 'The Ice Box-Ralph\'S Famous Italian Ices',
+  restaurant_id: '40690899' }
+{ _id: ObjectId("6180a77083999d4a10399291"),
+  borough: 'Brooklyn',
+  cuisine: 'Jewish/Kosher',
+  name: 'Alices',
+  restaurant_id: '40782042' }
+{ _id: ObjectId("6180a77083999d4a103994ad"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Re: Sources',
+  restaurant_id: '40876068' }

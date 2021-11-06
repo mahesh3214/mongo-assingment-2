@@ -1,0 +1,81 @@
+db.addresses.find({"grades.grade":{$not:{$gt:10}}},{"restuarant_id":1,"name":1,"borough":1,"cuisine":1})
+{ _id: ObjectId("6180a76f83999d4a1039869b"),
+  borough: 'Manhattan',
+  cuisine: 'Chicken',
+  name: 'Harriet\'S Kitchen' }
+{ _id: ObjectId("6180a76f83999d4a10398688"),
+  borough: 'Queens',
+  cuisine: 'Jewish/Kosher',
+  name: 'Tov Kosher Kitchen' }
+{ _id: ObjectId("6180a76f83999d4a10398692"),
+  borough: 'Brooklyn',
+  cuisine: 'Jewish/Kosher',
+  name: 'Seuda Foods' }
+{ _id: ObjectId("6180a76f83999d4a103986a4"),
+  borough: 'Brooklyn',
+  cuisine: 'Donuts',
+  name: 'Dunkin\' Donuts' }
+{ _id: ObjectId("6180a76f83999d4a103986a7"),
+  borough: 'Bronx',
+  cuisine: 'Chinese',
+  name: 'Happy Garden' }
+{ _id: ObjectId("6180a76f83999d4a103986bb"),
+  borough: 'Manhattan',
+  cuisine: 'Chicken',
+  name: 'Texas Rotisserie' }
+{ _id: ObjectId("6180a76f83999d4a103986bd"),
+  borough: 'Brooklyn',
+  cuisine: 'Steak',
+  name: 'Peter Luger Steakhouse' }
+{ _id: ObjectId("6180a76f83999d4a103986c1"),
+  borough: 'Bronx',
+  cuisine: 'American ',
+  name: 'Manhem Club' }
+{ _id: ObjectId("6180a76f83999d4a103986cf"),
+  borough: 'Staten Island',
+  cuisine: 'American ',
+  name: 'Great Kills Yacht Club' }
+{ _id: ObjectId("6180a76f83999d4a103986d9"),
+  borough: 'Bronx',
+  cuisine: 'American ',
+  name: 'The New Starling Athletic Club Of The Bronx' }
+{ _id: ObjectId("6180a76f83999d4a103986df"),
+  borough: 'Manhattan',
+  cuisine: 'Italian',
+  name: 'Forlinis Restaurant' }
+{ _id: ObjectId("6180a76f83999d4a103986e2"),
+  borough: 'Brooklyn',
+  cuisine: 'Donuts',
+  name: 'Nostrand Donut Shop' }
+{ _id: ObjectId("6180a76f83999d4a103986f3"),
+  borough: 'Manhattan',
+  cuisine: 'Irish',
+  name: 'Moran\'S Chelsea' }
+{ _id: ObjectId("6180a76f83999d4a10398714"),
+  borough: 'Queens',
+  cuisine: 'American ',
+  name: 'Blarney Castle' }
+{ _id: ObjectId("6180a76f83999d4a10398717"),
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Dangerfield\'S Night Club' }
+{ _id: ObjectId("6180a76f83999d4a1039871b"),
+  borough: 'Manhattan',
+  cuisine: 'Spanish',
+  name: 'Tio Pepe' }
+{ _id: ObjectId("6180a76f83999d4a10398724"),
+  borough: 'Manhattan',
+  cuisine: 'Tex-Mex',
+  name: 'Baby Bo\'S Burritos' }
+{ _id: ObjectId("6180a76f83999d4a1039872c"),
+  borough: 'Queens',
+  cuisine: 'Spanish',
+  name: 'La Fusta Restaurant' }
+{ _id: ObjectId("6180a76f83999d4a10398736"),
+  borough: 'Brooklyn',
+  cuisine: 'American ',
+  name: 'New Floridian Diner' }
+{ _id: ObjectId("6180a76f83999d4a1039874a"),
+  borough: 'Manhattan',
+  cuisine: 'Spanish',
+  name: 'Malaga Restaurant' }

@@ -1,0 +1,41 @@
+db.addresses.find({name : { $regex :/^Mad/i, }},{"name":1,"borough":1,"address.coord":1,"cuisine" :1})
+{ _id: ObjectId("6180a76f83999d4a10398bc0"),
+  address: { coord: [ -73.9860597, 40.7431194 ] },
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Madison Square' }
+{ _id: ObjectId("6180a76f83999d4a10398c8e"),
+  address: { coord: [ -73.98302199999999, 40.742313 ] },
+  borough: 'Manhattan',
+  cuisine: 'Indian',
+  name: 'Madras Mahal' }
+{ _id: ObjectId("6180a77083999d4a10398fec"),
+  address: { coord: [ -73.98171959999999, 40.7499406 ] },
+  borough: 'Manhattan',
+  cuisine: 'French',
+  name: 'Madison Bistro' }
+{ _id: ObjectId("6180a77083999d4a10398f3c"),
+  address: { coord: [ -74.000002, 40.72735 ] },
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Madame X' }
+{ _id: ObjectId("6180a77083999d4a10399075"),
+  address: { coord: [ -73.9717845, 40.6897199 ] },
+  borough: 'Brooklyn',
+  cuisine: 'African',
+  name: 'Madiba' }
+{ _id: ObjectId("6180a77083999d4a103993f8"),
+  address: { coord: [ -73.9886598, 40.7565811 ] },
+  borough: 'Manhattan',
+  cuisine: 'Hotdogs',
+  name: 'Madame Tussaud\'S' }
+{ _id: ObjectId("6180a77083999d4a1039937a"),
+  address: { coord: [ -73.9040753, 40.9069011 ] },
+  borough: 'Bronx',
+  cuisine: 'Italian',
+  name: 'Madison\'S' }
+{ _id: ObjectId("6180a77083999d4a10399430"),
+  address: { coord: [ -73.95623719999999, 40.7761697 ] },
+  borough: 'Manhattan',
+  cuisine: 'American ',
+  name: 'Mad River Bar & Grille' }
